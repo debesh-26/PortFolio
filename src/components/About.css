@@ -1,0 +1,101 @@
+.about{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-title{
+    color: rgb(64, 34, 124);
+    font-size: 47px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(64, 34, 124);
+    margin: 30px 0px;
+}
+
+.desc{
+    font-size: 16px;
+    margin: 0 5%;
+    text-align: center;
+}
+
+.skill-title{
+    margin: 18px 0px;
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(48, 32, 80);
+    border-bottom:1px solid rgb(64, 34, 124);
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.skills li{
+    list-style: none;
+    width: 75px;
+    background-color: rgb(164, 138, 187);
+    border-radius: 40%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 14px 10px;
+    font-weight: 500;
+}
+
+.cv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv-text{
+    margin: 22px 0px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(64, 34, 124);
+    text-align: center;
+}
+
+.cv-button {
+    width: fit-content;
+    padding: 12px 24px;
+    border: none;
+    box-shadow: inset 0px 22px 20px 10px rgb(161, 104, 239);
+    font-weight: 800;
+    color: black;
+    letter-spacing: .1rem;
+    transition: all 0.51s ease-in-out;
+  }
+  
+  .cv-button:hover {
+    transform: translateY(5px);
+    box-shadow: inset 1px -11px 25px 10px rgb(53, 10, 112);
+  }
+
+  @media screen and (max-width:430px) {
+    .a-title{
+        font-size: 30px;
+        padding: 10px;
+    }
+    
+    .desc{
+        font-size: 12px;
+    }
+    
+    .skill-title{
+        font-size: 25px;
+        padding: 10px;
+    }
+    .cv-text{
+        font-size: 18px;
+    }
+  }

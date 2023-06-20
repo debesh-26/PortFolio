@@ -1,0 +1,104 @@
+.home{
+    background-image: linear-gradient(to top,rgb(48, 32, 80),rgb(123, 102, 166),rgb(0, 0, 0));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.h-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+.h-hello{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.h-intro{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.h-name{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.h-desc{
+    font: 16px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.h-contact{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.button {
+    width: fit-content;
+    padding: 12px 24px;
+    border: none;
+    box-shadow: inset 0px 22px 20px 10px rgb(195, 164, 239);
+    font-weight: 800;
+    color: black;
+    letter-spacing: .1rem;
+    transition: all 0.51s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: translateY(5px);
+    box-shadow: inset 1px -11px 25px 10px rgb(157, 92, 250);
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, rgb(10, 0, 20),rgb(31, 2, 58), rgb(57, 19, 108),rgb(31, 2, 58));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+@media screen and (max-width:430px) {
+    .h-intro{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .h-name{
+        font-size: 36px;
+    }
+    .h-desc{
+        font-size: 14px;
+    }
+}
+
+
+
+ 
+
+ 
+  
+  
+
+
+ 
+
+
+
+  
+
