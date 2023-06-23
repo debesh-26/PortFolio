@@ -33,7 +33,7 @@ const About = () => {
         </div>
         <div className="cv">
             <div className="cv-text">Download my Resume here..</div>
-            <a href=' https://drive.google.com/file/d/1aP3RXWbHS1en1IH2mirqhaF9js1olWsH/view' target='_blank' >
+            <a href=' https://drive.google.com/file/d/1aP3RXWbHS1en1IH2mirqhaF9js1olWsH/view?usp=sharing' target='_blank' >
             <button className='cv-button'>Download</button>
             </a>
         </div>
