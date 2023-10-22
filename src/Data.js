@@ -2,7 +2,7 @@ export const data = [
     {
         id: 1,
         img: "img/socialmedia.png",
-        link:"https://github.com/debesh-26/social-media-26",
+        link:"https://github.com/debesh-26/SocialMedia",
         title:"Socialmedia App",
         desc:"You can Register or Login to post images or text, like or dislike posts and search for friends etc."
     },
