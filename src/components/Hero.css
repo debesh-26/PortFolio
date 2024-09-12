@@ -61,7 +61,9 @@
     color: black;
     letter-spacing: .1rem;
     transition: all 0.51s ease-in-out;
+    cursor: pointer;
   }
+
   
   .button:hover {
     transform: translateY(5px);

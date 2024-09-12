@@ -42,6 +42,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
   }
   
   .c-container .c-box .c-title {
@@ -74,6 +75,7 @@
     color: black;
     letter-spacing: .1rem;
     transition: all 0.51s ease-in-out;
+    cursor: pointer;
   }
   
   .card-button:hover {

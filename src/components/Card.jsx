@@ -9,7 +9,7 @@ const Card = ({i,link,title,desc}) => {
             <span className="c-title">{title}</span>
             <p>{desc}</p>
             <a href={link} target='_blank' rel='noreferrer'>
-            <button className='card-button'>GitHub</button>
+            <button className='card-button'>Launch The Project</button>
             </a>
         </div>
     </div>
