@@ -1,52 +1,51 @@
 export const data = [
-    {
-        id: 1,
-        img: "img/socialmedia.png",
-        link:"https://social-media-puce-eta.vercel.app/register",
-        title:"Socialmedia App",
-        desc:"You can Register or Login to post images or text, like or dislike posts and search for friends etc."
-    },
-    {
-        id: 2,
-        img: "img/s8.png",
-        link:"https://vtube-coral.vercel.app/",
-        title:"YouTube",
-        desc:"You can Register or Login to post video, like or dislike videos and search other videos etc."
-    },
-    {
-        id: 3,
-        img: "img/weather.png",
-        link:"https://worldd-weather.vercel.app/",
-        title:"Weather App",
-        desc:"You can view weather condition of various places using this app"
-    },
-    {
-        id: 4,
-        img:"img/quiz.png",
-        link: "https://react-quiz-app-bice.vercel.app/",
-        title:"Quiz App",
-        desc:"You can play quiz within a time period using this app"
-    },
-    {
-        id: 5,
-        img: "img/blog.png",
-        link:"https://reactappforposts.vercel.app/",
-        title:"Blog App",
-        desc:"You can register or login to use this app and post blogs."
-    },
-    {
-        id: 6,
-        img: "img/VueUI.png",
-        link:"https://vue-3-app.vercel.app/",
-        title:"Vue Website",
-        desc:"This is a Website built in Vue.Js, user can access there dashboard after login "
-    }
-    ,
-    {
-        id: 7,
-        img: "img/JobPortal.png",
-        link:"https://coursify-sable.vercel.app/",
-        title:"JobPortal",
-        desc:"A basic UI for a hiring comapny ."
-    }
-]
+  {
+    id: 1,
+    img: "img/socialmedia.png",
+    link: "https://social-media-puce-eta.vercel.app/register",
+    title: "Socialmedia App",
+    desc: "You can Register or Login to post images or text, like or dislike posts and search for friends etc.",
+  },
+  {
+    id: 2,
+    img: "img/s8.png",
+    link: "https://vtube-coral.vercel.app/",
+    title: "YouTube",
+    desc: "You can Register or Login to post video, like or dislike videos and search other videos etc.",
+  },
+  {
+    id: 3,
+    img: "img/VueUI.png",
+    link: "https://vue-3-app.vercel.app/",
+    title: "Vue Website",
+    desc: "This is a Website built in Vue.Js, user can access there dashboard after login ",
+  },
+  {
+    id: 4,
+    img: "img/JobPortal.png",
+    link: "https://coursify-sable.vercel.app/",
+    title: "JobPortal",
+    desc: "A basic UI for a hiring comapny .",
+  },
+  {
+    id: 5,
+    img: "img/blog.png",
+    link: "https://reactappforposts.vercel.app/",
+    title: "Blog App",
+    desc: "You can register or login to use this app and post blogs.",
+  },
+  {
+    id: 6,
+    img: "img/weather.png",
+    link: "https://worldd-weather.vercel.app/",
+    title: "Weather App",
+    desc: "You can view weather condition of various places using this app",
+  },
+  {
+    id: 7,
+    img: "img/quiz.png",
+    link: "https://react-quiz-app-bice.vercel.app/",
+    title: "Quiz App",
+    desc: "You can play quiz within a time period using this app",
+  },
+];
